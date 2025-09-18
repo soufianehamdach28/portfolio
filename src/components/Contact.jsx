@@ -8,16 +8,16 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'Ayman_Portfolio',      // Remplacez par votre Service ID
-      'template_ct1vdqc',     // Remplacez par votre Template ID
+      'service_tmdse66',      // Remplacez par votre Service ID
+      'template_r34r3ah',     // Remplacez par votre Template ID
       e.target,
-      'v0nxUFcm05DHnn2tc'     // Remplacez par votre User ID (clé publique)
+      'd8jsDNOYdu_HDicdh'     // Remplacez par votre User ID (clé publique)
     )
     .then((result) => {
       console.log("Message envoyé", result.text);
       setSubmitted(true); // Affiche un message de confirmation
     }, (error) => {
-      console.log("Erreur", error.text);
+      console.log("Erreur", error);
     });
 
     e.target.reset(); // Reset le formulaire après l'envoi
@@ -38,8 +38,8 @@ const Contact = () => {
           </p>
           <p className="text-gray-400 py-4">
             // Submit the form below or send me an email at
-            <a href="mailto:ayman.ibnouennadre@gmail.com" className="text-pink-600 underline ml-1">
-              ayman.ibnouennadre@gmail.com
+            <a href="mailto:soufiane.hamdach28@gmail.com" className="text-pink-600 underline ml-1">
+              soufiane.hamdach28@gmail.com
             </a>
           </p>
         </div>

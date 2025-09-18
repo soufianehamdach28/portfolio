@@ -7,20 +7,20 @@ import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Bootstrap from '../assets/Bootstrap.png';
-import Dotnet from '../assets/Dotnet.png';
-import C from '../assets/C.png';
 import SQL from '../assets/SQL.png';
-import Java from '../assets/Java.png';
 import Python from '../assets/Python.png';
 import mui from '../assets/mui.png';
-import shell from '../assets/shell.png';
+import nodejs from '../assets/nodejs.png';
 import django from '../assets/Django.png';
 import flask from '../assets/Flask.png';
 import wordpress from '../assets/Wordpress.jpg';
 import shopify from '../assets/Shopify.png';
-// import Oracle from '../assets/Oracle.webp';
 import php from '../assets/php.png';
-import ML from '../assets/ML.png';
+import mongodb from '../assets/mongo.png';
+import expo from '../assets/expol.png';
+import laravel from '../assets/laravel.png';
+import rcn from '../assets/recn.png';
+import expressjs from '../assets/express-js.png';
 
 const Skills = () => {
   return (
@@ -49,13 +49,13 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-4'>REACT</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={C} alt="HTML icon" />
                   <p className='my-4'>C/C++/C#</p>
-              </div>
+              </div> */}
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Java} alt="HTML icon" />
-                  <p className='my-4'>JAVA</p>
+                  <img className='w-20 mx-auto' src={laravel} alt="HTML icon" />
+                  <p className='my-4'>LARAVEL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
@@ -66,8 +66,12 @@ const Skills = () => {
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Dotnet} alt="HTML icon" />
-                  <p className='my-4'>.NET CORE</p>
+                  <img className='w-20 mx-auto' src={nodejs} alt="HTML icon" />
+                  <p className='my-4'>NODE JS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={expressjs} alt="HTML icon" />
+                  <p className='my-4'>EXPRESS JS</p>
               </div>
               
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -78,19 +82,21 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={flask} alt="HTML icon" />
                   <p className='my-4'>FLASK</p>
               </div>
-              
-             
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={ML} alt="HTML icon" />
-                  <p className='my-4'>MACHINE LEARNING </p> 
+                  <img className='w-auto mx-auto h-20' src={rcn} alt="HTML icon" />
+                  <p className='my-4'>RAECT NATIVE </p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={shell} alt="HTML icon" />
-                  <p className='my-4'>SHELL SCRIPT</p>
+                  <img className='w-20 mx-auto' src={expo} alt="HTML icon" />
+                  <p className='my-4'>RAECT NATIVE EXPO </p> 
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={SQL} alt="HTML icon" />
                   <p className='my-4'>SQL DATABASES</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={mongodb} alt="HTML icon" />
+                  <p className='my-4'>MongoDB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={mui} alt="HTML icon" />

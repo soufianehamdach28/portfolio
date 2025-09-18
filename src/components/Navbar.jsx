@@ -9,9 +9,10 @@ import {
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { IoIosArrowUp } from 'react-icons/io'; // Icône de la flèche vers le haut
-import AI from '../assets/AI.png';
+// import AI from '../assets/AI.png';
 import { Link } from 'react-scroll';
-import ResumePDF from '../assets/Ayman CV .pdf';
+import ResumePDF from '../assets/CV -hamdach-soufiane.pdf';
+import SH from '../assets/SH.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -25,12 +26,12 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10'>
       <div>
-        <img src={AI} alt='Logo' style={{ width: '50px' }}  />
+        <img src={SH} alt='Logo' style={{ width: '100px' }}  />
       </div>
 
       {/* Menu de navigation - Desktop */}
       <ul className='hidden md:flex'>
-        {['home', 'about', 'skills', 'works', 'certificates', 'contact'].map((section) => (
+        {['home', 'about', 'skills', 'works', 'contact'].map((section) => (
           <li key={section} className="mx-2">
             <Link
               to={section}
@@ -96,7 +97,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/ayman-ibnouennadre-860766271/'
+              href='https://www.linkedin.com/in/soufianehamdach/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -106,7 +107,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://github.com/AymanIbnouennadre'
+              href='https://github.com/soufianehamdach28'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -116,7 +117,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DBF73]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.fiverr.com/ayman_ibnouenna?public_mode=true' 
+              href='https://www.fiverr.com/soufianehamdach/' 
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -127,7 +128,7 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href={ResumePDF}
-              download="Ayman_CV.pdf"
+              download="CV- soufiane hamdach .pdf"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

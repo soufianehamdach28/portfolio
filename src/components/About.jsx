@@ -1,14 +1,14 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion'; // Importer Framer Motion pour les animations
 import Micro from '../assets/Micro.JPG'; // Assurez-vous que l'image est bien importée
 import Photo1 from '../assets/DSC_0582.jpg'; 
 import Photo2 from '../assets/DSC_0587.jpg'; 
 
-import { FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa'; // Import icons for location and date
+// import { FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa'; // Import icons for location and date
 
 const About = () => {
   // Liste des photos
-  const photos = [Micro, Photo1, Photo2];
+  // const photos = [Micro, Photo1, Photo2];
 
   return (
     <motion.div
@@ -40,7 +40,7 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            <p>Hi. I'm Ayman Ibnouennadre, nice to meet you. Please take a look around.</p>
+            <p>Hi. I'm Soufiane Hamdach, nice to meet you. Please take a look around.</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -55,7 +55,7 @@ const About = () => {
         </div>
 
         {/* Section EMSI IT Summer Competition 2024 with scroll-based animation */}
-        <motion.div
+        {/* <motion.div
           className="max-w-[1000px] w-full grid grid-cols-1 gap-8 px-4 mt-8"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -82,10 +82,10 @@ const About = () => {
               <p className="font-semibold text-[#8892b0]">21/11/2024</p>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Photo Gallery Section with scroll animation */}
-        <motion.div
+        {/* <motion.div
           className="mt-8 w-full flex justify-center flex-wrap gap-8"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -108,7 +108,7 @@ const About = () => {
               />
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </motion.div>

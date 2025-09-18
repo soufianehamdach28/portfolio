@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
-import Certificate from "./components/Certificate";
+// import Certificate from "./components/Certificate";
 import { Helmet } from 'react-helmet';
 
 
@@ -12,17 +12,19 @@ function App() {
   return (
     <div>
       <Helmet>
-        <title>Ayman Ibnouennadre</title>
+        <title>SOUFIANE HAMDACH</title>
       </Helmet>
       <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
-      <Certificate />
-      <Contact />
+      {/* <Certificate /> */}
+      <Contact /> 
     </div>
   );
 }
+
+
 
 export default App;
