@@ -14,13 +14,13 @@ function App() {
       <Helmet>
         <title>SOUFIANE HAMDACH</title>
        </Helmet>
-      <p className="justify-center">Portfolio - Soufiane Hamdach</p>
-      {/*<Navbar />
+      {/* <p className="justify-center">Portfolio - Soufiane Hamdach</p> */}
+      <Navbar />
       <Home />
       <About />
       <Skills />
       <Work />
-      <Contact />  */}
+      <Contact /> 
     </div>
   );
 }
