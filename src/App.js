@@ -19,7 +19,6 @@ function App() {
       <About />
       <Skills />
       <Work />
-      {/* <Certificate /> */}
       <Contact /> 
     </div>
   );
