@@ -34,7 +34,6 @@ import spice7 from "../assets/projects/spice7.jpg";
 import spice8 from "../assets/projects/spice8.jpg";
 import spice9 from "../assets/projects/spice9.jpg";
 
-
 import mail from "../assets/projects/mail.png";
 import mail1 from "../assets/projects/mail1.png";
 import mail2 from "../assets/projects/mail2.png";
@@ -45,7 +44,7 @@ export const data = [
     id: 1,
     name: "Truck Delivery Optimization",
     image: Delivery,
-    github: "https://github.com/AymanIbnouennadre/Delevery_Optimization_WEBAPP",
+    github: "#",
     description:
       "The project involves optimizing delivery routes for INSOFT, a company that serves 1,500 clients spread across a vast geographical area using a fleet of 25 trucks. The main challenge lies in minimizing the total distance traveled to reduce costs, improve customer service, and comply with the trucks' capacity constraints. The input data used includes an Excel file containing the GPS coordinates and order capacities of the 1,500 clients, as well as a distance matrix between clients. The entire project was developed using Python, incorporating artificial intelligence techniques and optimization algorithms such as geographic client clustering with the OPTICS algorithm, shortest path calculations with Bellman-Ford, and route optimization using the Nearest Neighbor algorithm. The project culminated in a web application built with the Flask framework.",
     type: "fullstack",
@@ -55,7 +54,7 @@ export const data = [
     id: 2,
     name: "Healthcare Website",
     image: Doctor,
-    github: "https://github.com/AymanIbnouennadre/health-WebSite_DJANGO",
+    github: "#",
     description:
       "This project is an online healthcare booking platform, allowing patients to streamline the process of scheduling appointments with their chosen doctors and hospitals. Patients can browse the website to view available services, select a doctor and hospital, and submit a request for an appointment, pending confirmation from the admin. Upon approval, the admin selects a suitable date, and an email is sent to the patient containing the appointment details, including the invoice, date, location, doctor, and assigned room. The platform also includes an internal notification system to keep the admin updated on pending appointment confirmations, ensuring timely and efficient management. Built with Django, Python, and Bootstrap, this platform combines an intuitive user experience with robust functionality to improve both patient satisfaction and healthcare service management.",
     type: "fullstack",
@@ -66,7 +65,7 @@ export const data = [
     id: 3,
     name: "HappyShopp oficial",
     image: Portfolio,
-    github: "https://github.com/AymanIbnouennadre/MyPortfolio",
+    github: "#",
     description:
       "A portfolio website for a software engineer showcasing professional experience, projects, and a contact form for email inquiries. It includes CRUD functionality for adding new information and projects, developed using ASP.NET Core MVC and Bootstrap.",
     type: "fullstack",
@@ -80,7 +79,7 @@ export const data = [
     id: 4,
     name: "Menu",
     image: menu,
-    github: "https://menu.project1.serv00.net",
+    github: "https://menu1.infinityfreeapp.com/",
     description: `Menu Dynamique – Une Expérience Moderne et Intuitive Notre site web de menu dynamique, développé avec Laravel, offre une interface fluide et interactive pour afficher et gérer un large éventail de produits alimentaires et de boissons. 
       Grâce à une conception soignée et une navigation intuitive, les utilisateurs peuvent facilement parcourir les différentes catégories, filtrer les articles et consulter les détails de chaque produit. 
       🔹 Caractéristiques principales :
@@ -165,8 +164,7 @@ Performances optimisées pour un site rapide et réactif, même avec du trafic �
     name: "Ophtalmologie",
     image:
       "https://oussamaassmaoui.serv00.net/storage/images/2679OrDnAMDiugZjLwIEDG3YN5EvOia8YSkNQ386.jpg",
-    github:
-      "https://oussamaassmaoui.serv00.net/storage/images/2679OrDnAMDiugZjLwIEDG3YN5EvOia8YSkNQ386.jpg",
+    github: "#",
     description: `Ophtalmologie est un site web moderne et fonctionnel conçu pour un hôpital spécialisé en soins oculaires. Le site permet aux patients de prendre facilement rendez-vous avec des ophtalmologistes qualifiés grâce à une interface simple et intuitive. En plus de la prise de rendez-vous, le site propose une riche collection d'articles sur les maladies oculaires, leur prévention, leurs symptômes et leurs traitements.
       
     En tant que développeur, j'ai utilisé Laravel pour assurer une architecture solide et évolutive, combinée avec Bootstrap et CSS pour un design responsive et moderne. Le site repose sur une base de données SQL pour une gestion efficace des informations, et les fonctionnalités dynamiques sont gérées par PHP et JavaScript pour une interactivité optimale. Le résultat est un site sécurisé, rapide et facile à utiliser, offrant une expérience fluide à tous les utilisateurs.`,
