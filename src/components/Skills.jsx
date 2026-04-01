@@ -47,12 +47,13 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+                  <p className='my-4'>NextJS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-4'>REACT</p>
               </div>
-              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={C} alt="HTML icon" />
-                  <p className='my-4'>C/C++/C#</p>
-              </div> */}
+              
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={laravel} alt="HTML icon" />
                   <p className='my-4'>LARAVEL</p>
@@ -70,18 +71,18 @@ const Skills = () => {
                   <p className='my-4'>NODE JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={flask} alt="HTML icon" />
+                  <p className='my-4'>NestJs</p>
+              </div> 
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={expressjs} alt="HTML icon" />
                   <p className='my-4'>EXPRESS JS</p>
               </div>
               
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={django} alt="HTML icon" />
                   <p className='my-4'>DJANGO</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={flask} alt="HTML icon" />
-                  <p className='my-4'>FLASK</p>
-              </div>
+              </div>*/}
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-auto mx-auto h-20' src={rcn} alt="HTML icon" />
                   <p className='my-4'>RAECT NATIVE </p>
@@ -116,14 +117,14 @@ const Skills = () => {
                   <p className='my-4'>PHP</p>
               </div>
               
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={wordpress} alt="HTML icon" />
                   <p className='my-4'>WORDPRESS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={shopify} alt="HTML icon" />
                   <p className='my-4'>SHOPIFY</p>
-              </div>
+              </div> */}
               
           </div>
       </div>
